@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Lobster&family=Press+Start+2P&family=Russo+One&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    font-weight: 10px;
+    background-color: #885353;
+    color: rgb(0, 0, 0);
+}
+
+/*  шапка  */
+header {
+    background-color: rgb(129, 129, 129);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.headerInner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 15%;
+    height: auto;
+}
+
+nav {
+    font-family: 'Arial', cursive;
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Arial', cursive;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+/*  main  */
+.banner {
+    width: 98.1%;
+    background: url(images/BG1.jpg);
+    background-size: cover;
+    padding-top: 35vh;
+    padding-left: 20px;
+    padding-bottom: 1vh;
+    color: rgb(55, 56, 55);
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.pBanner {
+    margin-top: 10px;
+    margin-bottom: 60px;
+    font-family: 'Arial', cursive;
+}
+
+.link {
+    display: inline-block;
+    background-color: rgba(236, 242, 237, 0.369);
+    padding: 20px 40px;
+    color: rgb(59, 49, 199);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.link:hover {
+    color: rgb(91, 67, 206);
+    text-decoration: none;
+}
+
+.move {
+    width: 100wv;
+    height: 70vh;
+    background-color: rgb(152, 152, 152);
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.movie {
+    width: 100%;
+    height: 100vh;
+    background: url(images/BG2.jpeg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*  подвал  */
+footer {
+    background-color: rgb(76, 76, 75);
+    font-family: 'Russo One', sans-serif;
+}
+
+.footerInner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #fff;
+}
